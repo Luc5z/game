@@ -29,10 +29,10 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [nick](https://github.com/)
 
 ### 5. David Gabriel
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Programar o sistema do Jogo
+- **Resumo:** sistema de locomoção e conclusão de tarefas
+- **Habilidades:** Pontual, Organizado, Eficiente
+- **GitHub:** [nick]([https://github.com/](https://github.com/davidxxgabriel))
 
 ### 6. Felipe Pará
 - **Função:** 

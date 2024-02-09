@@ -17,9 +17,9 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [nick](https://github.com/)
 
 ### 3. Rey Hall
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
+- **Função:** Trilha sonora
+- **Resumo:** Adicionar uma ou mais trilhas sonoras no jogo
+- **Habilidades:** Organizado
 - **GitHub:** [nick](https://github.com/)
 
 ### 4. Gustavo Rocha

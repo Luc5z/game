@@ -32,7 +32,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **Função:** Programar o sistema do Jogo
 - **Resumo:** sistema de locomoção e conclusão de tarefas
 - **Habilidades:** Pontual, Organizado, Eficiente
-- **GitHub:** [davidxxgabriel]([https://github.com/](https://github.com/davidxxgabriel))
+- **GitHub:** [davidxxgabriel](https://github.com/davidxxgabriel)
 
 ### 6. Felipe Pará
 - **Função:** 

@@ -31,7 +31,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 ### 5. David Gabriel
 - **Função:** Programar o sistema do Jogo
 - **Resumo:** sistema de locomoção e conclusão de tarefas
-- **Habilidades:** Pontual, Organizado, Eficiente
+- **Habilidades:** JS, Html, css, MYSQL
 - **GitHub:** [davidxxgabriel](https://github.com/davidxxgabriel)
 
 ### 6. Felipe Pará

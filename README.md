@@ -23,9 +23,9 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [nick](https://github.com/)
 
 ### 4. Gustavo Rocha
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
+- **Função:** pixel-art
+- **Resumo:** fazer o design do personagem principal e ícones de objetos junto com algumas animações 
+- **Habilidades:** MYSQL, css, html, aseprite
 - **GitHub:** [nick](https://github.com/)
 
 ### 5. David Gabriel

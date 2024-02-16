@@ -29,9 +29,9 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [nick](https://github.com/)
 
 ### 5. David Gabriel
-- **Função:** Programar o sistema do Jogo
+- **Função:** Programar o sistema do Jogo de movimentos
 - **Resumo:** sistema de locomoção e conclusão de tarefas
-- **Habilidades:** JS, Html, css, MYSQL
+- **Habilidades:** JS, Html, css, MYSQL, Python 
 - **GitHub:** [davidxxgabriel](https://github.com/davidxxgabriel)
 
 ### 6. Felipe Pará

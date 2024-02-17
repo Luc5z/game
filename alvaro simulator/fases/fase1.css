@@ -1,0 +1,29 @@
+body{
+    background-color:#469be5 ;
+    display: flex;
+}
+
+#alvaro {
+    width: 250px;
+    margin-top: 100px;
+}
+
+#fase{
+    width: 700px;
+    max-width: 700px;
+    height: 700px;
+    margin-left: 400px;
+    border: solid;
+    background-image: url(../assets/mapa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
+
+#mapa{
+    width: 100%;
+}
+
+#personagem{
+    width: 30px;
+}

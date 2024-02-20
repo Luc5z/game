@@ -5,50 +5,50 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 ## Desenvolvedores
 
 ### 1. João Dias
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Programador Back-end
+- **Resumo:** Realiza testes e ajuda na criação de sistemas
+- **Habilidades:** HTML, JS
+- **GitHub:** [justdias2002](https://github.com/justdias2002)
 
 ### 2. Heitor Amaral
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Programador Back-end
+- **Resumo:** Ajuda na criação de sistemas e organiza 
+- **Habilidades:** UI, HTML, JS
+- **GitHub:** [heitoramaral2003](https://github.com/heitoramaral2003)
 
 ### 3. Rey Hall
-- **Função:** Trilha sonora
-- **Resumo:** Adicionar uma ou mais trilhas sonoras no jogo
-- **Habilidades:** Organizado
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Programador Back-end
+- **Resumo:** Adicionar uma ou mais trilhas sonoras no jogo, criar banco de dados local para armazenar dados do usuário
+- **Habilidades:** JS, HTML
+- **GitHub:** [Rey_Hall](https://github.com/Rey_Hall)
 
 ### 4. Gustavo Rocha
-- **Função:** pixel-art
-- **Resumo:** fazer o design do personagem principal e ícones de objetos junto com algumas animações 
-- **Habilidades:** MYSQL, css, html, aseprite
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Design de personagem, programador back-end
+- **Resumo:** fazer o design do personagem principal e ícones de objetos junto com algumas animações, ajudar na criações de sistemas para o jogo
+- **Habilidades:** CSS, HTML, Aseprite, JS
+- **GitHub:** [gustavorocha30](https://github.com/gustavorocha30)
 
 ### 5. David Gabriel
-- **Função:** Programar o sistema do Jogo de movimentos
+- **Função:** Programador back-end
 - **Resumo:** sistema de locomoção e conclusão de tarefas
-- **Habilidades:** JS, Html, css, MYSQL, Python 
+- **Habilidades:** JS, HTML, CSS 
 - **GitHub:** [davidxxgabriel](https://github.com/davidxxgabriel)
 
 ### 6. Felipe Pará
 - **Função:** 
 - **Resumo:** 
 - **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **GitHub:** [Fepara](https://github.com/Fepara)
 
 ### 7. Daniel Vilhena
-- **Função:** 
-- **Resumo:** 
+- **Função:** programador
+- **Resumo:** ajudar devs com a criação da trilha sonora
 - **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **GitHub:** [DanielNeto3](https://github.com/DanielNeto3)
 
 ### 8. Dival Lucas
-- **Função:** 
-- **Resumo:** 
-- **Habilidades:** 
-- **GitHub:** [nick](https://github.com/)
+- **Função:** Designer, Programador Front-end
+- **Resumo:** Fazer o designer do mapa e criar o front-end das principais páginas
+- **Habilidades:** HTML, CSS, JS, Libresprite, desenvolvimento ágil
+- **GitHub:** [luc5z](https://github.com/luc5z)
 

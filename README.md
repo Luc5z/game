@@ -35,7 +35,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [davidxxgabriel](https://github.com/davidxxgabriel)
 
 ### 6. Felipe Pará
-- **Função:** 
+- **Função:** Revisar e implementar código
 - **Resumo:** 
 - **Habilidades:** 
 - **GitHub:** [Fepara](https://github.com/Fepara)
@@ -52,3 +52,8 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **Habilidades:** HTML, CSS, JS, Libresprite, desenvolvimento ágil
 - **GitHub:** [luc5z](https://github.com/luc5z)
 
+- ### 9. Enderson Moraes
+- **Função:** Programador Front-end
+- **Resumo:** Fazer o front-end das fases
+- **Habilidades:** HTML, CSS
+- **GitHub:** [nick](https://github.com/)

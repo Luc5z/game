@@ -52,7 +52,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **Habilidades:** HTML, CSS, JS, Libresprite, desenvolvimento ágil
 - **GitHub:** [luc5z](https://github.com/luc5z)
 
-- ### 9. Enderson Moraes
+### 9. Enderson Moraes
 - **Função:** Programador Front-end
 - **Resumo:** Fazer o front-end das fases
 - **Habilidades:** HTML, CSS

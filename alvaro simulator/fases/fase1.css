@@ -5,19 +5,19 @@ body{
 
 #alvaro {
     width: 250px;
-    margin-top: 100px;
+    margin-top: 8vh;
 }
 
 #fase{
     width: 700px;
-    max-width: 700px;
     height: 700px;
-    margin-left: 400px;
-    border: solid;
     background-image: url(../assets/mapa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-left: 100px;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #mapa{
@@ -26,4 +26,20 @@ body{
 
 #personagem{
     width: 30px;
+}
+
+.instrucao{
+    display: flex;
+}
+
+.falas {
+    margin-top: 10vh;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    width: 100%;
 }

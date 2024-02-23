@@ -56,4 +56,4 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **Função:** Programador Front-end
 - **Resumo:** Fazer o front-end das fases
 - **Habilidades:** HTML, CSS
-- **GitHub:** [nick](https://github.com/)
+- **GitHub:** [nick](https://github.com/mor4ex21)

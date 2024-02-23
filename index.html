@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alvaro game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="game-container">
         <div class="commands">
@@ -16,7 +18,7 @@
             <button onclick="executeCommand('space-between')">Space-between: Espaçamento uniforme entre os itens, começando e terminando nas extremidades</button><br>
             <button onclick="executeCommand('space-around')">Space-around: Espaçamento uniforme entre os itens com espaço adicional nas extremidades</button><br>
             <button onclick="executeCommand('space-evenly')">Space-evenly: Espaçamento uniforme entre os itens com espaço adicional distribuído igualmente</button><br><br>
-            
+
             <p><strong>Comandos de Align-items:</strong></p>
             <button onclick="executeCommand('flex-start-align-start')">Flex-start: Alinha o conteúdo no topo</button><br>
             <button onclick="executeCommand('flex-end-align-end')">Flex-end: Alinha o conteúdo na parte inferior</button><br>
@@ -28,6 +30,9 @@
             <img id="alvaro" src="imgs/IMG_5981.PNG" alt="Alvaro">
         </div>
     </div>
+    <audio src="./sound/SoundTrack.mp3" id="soundtrack" />
     <script src="script.js"></script>
+    <script src="soundtrack.js"></script>
 </body>
+
 </html>

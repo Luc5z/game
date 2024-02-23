@@ -10,6 +10,7 @@ body{
     width: 300px;
     margin-top: 8vh;
     
+    
 }
 
 #fase{
@@ -21,6 +22,10 @@ body{
     margin-left: 5%;
     border-radius: 6px;
     margin-top: 4%;
+    justify-content: flex-end;
+
+    
+    
 }
 
 #mapa{
@@ -29,6 +34,10 @@ body{
 
 #personagem{
     width: 60px;
+    margin-left: 87%;
+    
+    
+    
     
 
 }
@@ -64,9 +73,5 @@ body{
     background: none;
  }
 
- #chave {
-    margin-left: 88%;
-    margin-top: -120px;
-    height: 150px ;
- }
+
 

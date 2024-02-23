@@ -1,26 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
     background-color:#469be5 ;
     display: flex;
-    padding: 50px;
-    font-family: "Press Start 2P", system-ui;
 }
 
 #alvaro {
-    width: 300px;
+    width: 250px;
     margin-top: 8vh;
-    
 }
 
 #fase{
-    width: 1200px;
+    width: 700px;
     height: 700px;
-    background-image: url(../assets/mapa1.jpg);
+    background-image: url(../assets/mapa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 5%;
-    border-radius: 6px;
-    margin-top: 4%;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 #mapa{
@@ -28,9 +25,7 @@ body{
 }
 
 #personagem{
-    width: 60px;
-    
-
+    width: 30px;
 }
 
 .instrucao{
@@ -39,34 +34,12 @@ body{
 
 .falas {
     margin-top: 10vh;
-    width: 360px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     text-align: center;
-    background-image: url(../assets/balao2.png);
-    background-repeat: no-repeat;
-    letter-spacing: 1px;
- 
-
-
 }
 
 .game-container {
     display: flex;
     width: 100%;
 }
- h5 {
-    margin: 40px 40px 0px 40px;
-    
- }
- 
- #command-input {
-    border: none;
-    background: none;
- }
-
- #chave {
-    margin-left: 88%;
-    margin-top: -120px;
-    height: 150px ;
- }
-

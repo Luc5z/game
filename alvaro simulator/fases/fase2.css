@@ -23,7 +23,7 @@ body{
     margin-top: 4%;
     display: grid;
     justify-content: flex-end;
-}
+} 
 
 #personagem{
     width: 60px;
@@ -54,10 +54,5 @@ h5 {
     background: none;
 }
 
-#notebook {
-    width: 75px;
-    
-
-}
 
 

@@ -4,35 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fase1.css">
-    <link rel="stylesheet" href="script.js">
     <title>Fase 1</title>
 </head>
 <body>
-    <div class="game-container">     
-    <div class="instrucao">
-            <img id="alvaro" src="../assets/alvaro.png" alt=""> 
-            
-            <img id="balao-fala" src="assets/balaodfalas.PNG" alt="">
-            
-            <div class="balao-fala">
-                <p>Olá! Eu sou o Alvaro. Como posso ajudar você hoje?</p>
-                
+    <div class="game-container">
+        <div class="instrucao">
+            <img id="alvaro" src="../assets/alvaro.gif" alt="">        
 
+            <div class="falas">
+                <h5>Preciso da sua ajuda para pegar a minha chave na sala {sala}</h5>
                 
+                <input type="text" id="command-input" placeholder="Digite o comando...">
             </div>
         </div>
 
-    <div id="fase">
-        <img id="personagem" src="../assets/alvaro.png" alt="">
-        <input type="text" id="comand-input" placeholder="Digite o comando...">
+        <div id="fase">
+            <img id="personagem" src="../assets/alvaro.png" alt="">
+        </div>
+    
+        <img id="chave" src="../assets/chave.gif" alt="">
     </div>
-</div>
-<div class="mensagem-parabens" id="mensagem-parabens">
-    <p>Parabéns! Próxima fase!</p>
-    <button onclick="proximaFase()">Próxima Fase</button>
-</div>
 
-<script src="script.js"></script>
+    <div class="mensagem-parabens" id="mensagem-parabens">
+        <h2>Parabéns, próxima fase!</h2>
+        <button onclick="proximaFase()">Próxima Fase</button>
+    </div>
 
+    <script>
+        document.getElementById('command-input').addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                const comando = this.value.trim().toLowerCase();
+                const fase = document.getElementById('fase');
+                const chave = document.getElementById('chave');
+                const falas = document.querySelector('.falas');
+                const mensagemParabens = document.getElementById('mensagem-parabens');
+
+                if (['flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly'].includes(comando)) {
+                    fase.style.justifyContent = comando;
+
+                    
+                    if (isNearChave()) {
+                        
+                        updateFalas('Bom trabalho! Você alcançou a chave.');
+                        
+                        mensagemParabens.style.display = 'block';
+                    } else {
+                        
+                        updateFalas('Tente novamente. Você ainda não alcançou a chave.');
+                        
+                        mensagemParabens.style.display = 'none';
+                    }
+                } else {
+                    
+                    alert('Comando flex inválido. Use flex-start, flex-end, center, space-between, space-around ou space-evenly.');
+                }
+
+                this.value = '';
+            }
+        });
+
+        function isNearChave() {
+            const personagemRect = document.getElementById('personagem').getBoundingClientRect();
+            const chaveRect = document.getElementById('chave').getBoundingClientRect();
+
+            
+            return (
+                personagemRect.left < chaveRect.right &&
+                personagemRect.right > chaveRect.left &&
+                personagemRect.top < chaveRect.bottom &&
+                personagemRect.bottom > chaveRect.top
+            );
+        }
+
+        function updateFalas(message) {
+            const falas = document.querySelector('.falas');
+            falas.innerHTML = `<h5>${message}</h5>`;
+        }
+    </script>
+
+    <style>
+        .mensagem-parabens {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
 </body>
 </html>

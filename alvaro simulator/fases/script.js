@@ -1,51 +1,34 @@
-function executeCommand(command) {
-    const fase = document.querySelector('.fase');
+document.getElementById('command-input').addEventListener('keyup', function(event) {
 
-    switch (command) {
-        // Comandos de Justify-content
-        case 'flex-start':
-            unama.style.justifyContent = 'flex-start';
-            break;
-        case 'flex-end':
-            unama.style.justifyContent = 'flex-end';
-            break;
-        case 'center':
-            unama.style.justifyContent = 'center';
-            break;
-        case 'space-between':
-            unama.style.justifyContent = 'space-between';
-            break;
-        case 'space-around':
-            unama.style.justifyContent = 'space-around';
-            break;
-        case 'space-evenly':
-            unama.style.justifyContent = 'space-evenly';
-            break;
-        // Comandos de Align-items
-        case 'flex-start-align-start':
-            unama.style.alignItems = 'flex-start';
-            break;
-        case 'flex-end-align-end':
-            unama.style.alignItems = 'flex-end';
-            break;
-        case 'center-align-center':
-            unama.style.alignItems = 'center';
-            break;
-        case 'baseline':
-            unama.style.alignItems = 'baseline';
-            break;
-        case 'stretch':
-            unama.style.alignItems = 'stretch';
-            break;
-        default:
-            break;
-    }
-}
-         // input 
-document.getElementById('command-input').addEventListener('keypress', function(event) {
     if (event.key === 'Enter') {
-        const inputValue = this.value;
-        executeCommand(inputValue);
+        const comando = this.value.trim().toLowerCase();
+        const fase = document.getElementById('fase');
+
+        if (comando.startsWith('justify-content')) {
+            const valor = comando.split(' ')[1];
+            if (['flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly'].includes(valor)) {
+                fase.style.justifyContent = valor;
+            } else {
+                alert('Valor inválido para justify-content. Use flex-start, flex-end, center, space-between, space-around ou space-evenly.');
+            }
+        } else if (comando.startsWith('align-items')) {
+            const valor = comando.split(' ')[1];
+            if (['flex-start', 'flex-end', 'center', 'baseline', 'stretch'].includes(valor)) {
+                fase.style.alignItems = valor;
+            } else {
+                alert('Valor inválido para align-items. Use flex-start, flex-end, center, baseline ou stretch.');
+            }
+        } else if (comando.startsWith('align-content')) {
+            const valor = comando.split(' ')[1];
+            if (['flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'stretch'].includes(valor)) {
+                fase.style.alignContent = valor;
+            } else {
+                alert('Valor inválido para align-content. Use flex-start, flex-end, center, space-between, space-around ou stretch.');
+            }
+        } else {
+            alert('Comando inválido. Use "justify-content", "align-items" ou "align-content" seguido de um dos valores permitidos.');
+        }
+
         this.value = '';
     }
-});
+    });

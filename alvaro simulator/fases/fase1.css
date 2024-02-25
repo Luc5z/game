@@ -22,11 +22,9 @@ body{
     border-radius: 6px;
     margin-top: 4%;
     display: grid;
+    border: solid;
 }
 
-#mapa{
-    width: 100%;
-}
 
 #personagem{
     width: 60px;
@@ -51,7 +49,6 @@ body{
 
 .game-container {
     display: flex;
-    width: 100%;
 }
 
 h5 {
@@ -65,8 +62,8 @@ h5 {
 }
 
 #chave {
-    margin-left: 87%;
-    margin-top: 3%;
+    margin-left: 1810px;
+    margin-top: 70px;
     height: 150px;
     position: absolute;
 }

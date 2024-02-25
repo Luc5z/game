@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fase1.css">
+    <title>Fase 1</title>
+</head>
+<body>
+    <div class="game-container">
+        <div class="instrucao">
+            <img id="alvaro" src="../assets/alvaro.gif" alt="">        
+
+            <div class="falas">
+                <h5>Preciso da sua ajuda para pegar a minha chave na sala {sala}</h5>
+                
+                <input type="text" id="command-input" placeholder="Digite o comando...">
+            </div>
+        </div>
+
+        <div id="fase">
+            <img id="personagem" src="../assets/alvaro.png" alt="">
+        </div>
+    
+        <img id="chave" src="../assets/chave.gif" alt="">
+    </div>
+
+    <script>
+        document.getElementById('command-input').addEventListener('keyup', function(event) {
+            if (event.key === 'Enter') {
+                const comando = this.value.trim().toLowerCase();
+                const fase = document.getElementById('fase');
+                if (['flex-start', 'flex-end', 'center', 'space-between', 'space-around', 'space-evenly'].includes(comando)) {
+                    fase.style.justifyContent = comando;
+                } else {
+                    alert('Comando flex inválido. Use flex-start, flex-end, center, space-between, space-around ou space-evenly.');
+                }
+                this.value = '';
+            }
+        });
+    </script>
+</body>
+</html>

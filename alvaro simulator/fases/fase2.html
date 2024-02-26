@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fase2.css">
+    <title>Fase 2</title>
+    <style>
+        .mensagem-parabens {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+<div class="instrucao">
+    <img id="alvaro" src="../assets/alvaro.gif" alt="">        
+    <div class="falas">
+        <h5>Ótimo!, agora preciso da sua ajuda para pegar meu computador na sala L104</h5>
+        <input type="text" id="command-input" placeholder="Digite o comando...">
+    </div>
+</div>
+<div id="fase">
+    <img id="personagem" src="../assets/alvaro.png" alt="">
+</div>
+<img id="chave" src="../assets/notebook.gif" alt="">
+
+<div class="mensagem-parabens" id="mensagem-parabens">
+    <h2>Parabéns, próxima fase!</h2>
+    <button onclick="proximaFase('fase2')">Próxima Fase</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

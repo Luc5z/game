@@ -13,13 +13,13 @@ function resetSoundTrack(){
 }
 
 function sound(){
-  if(!isMuted){
-    isMuted = true
+  if(isMuted){
+    isMuted = false
     soundtrack.volume = 0;
     volume.classList.add('muted')
     
-  } else {
-    isMuted = false;
+  } else  {
+    isMuted = true;
     soundtrack.volume = 1;
     volume.classList.remove('muted')
   }

@@ -89,3 +89,16 @@ h5 {
     height: 150px;
     position: absolute;
 }
+
+#volume{
+    position: absolute;
+    top: 20px; right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#volume.muted{
+    background: red;
+    color: white;
+}

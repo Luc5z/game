@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fase1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Fase 1</title>
 </head>
+
 <body>
     <div class="game-container">
         <div class="instrucao">
@@ -24,7 +27,10 @@
         <h2>Parabéns, próxima fase!</h2>
         <button id="nextlevelbutton" onclick="proximaFase('fase1')"><img src="../assets/seta.gif" alt=""></button>
     </div>
-
+    <audio src="../sound/SoundTrack.mp3" id="soundtrack"></audio>
+    <button class="fa-solid fa-music" id="volume"></button>
+    <script src="../soundtrack.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

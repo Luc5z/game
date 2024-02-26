@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fase2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Fase 2</title>
 </head>
+
 <body>
 
     <div class="game-container">
 
-    <div class="instrucao">
-            <img id="alvaro" src="../assets/alvaro.gif" alt="">        
+        <div class="instrucao">
+            <img id="alvaro" src="../assets/alvaro.gif" alt="">
 
             <div class="falas">
                 <h5>Ótimo!, agora preciso da sua ajuda para pegar meu computador na sala L104</h5>
-                
+
                 <input type="text" id="command-input" placeholder="Digite o comando...">
             </div>
         </div>
 
-    <div id="fase">
-        <img id="personagem" src="../assets/alvaro.png" alt="">
+        <div id="fase">
+            <img id="personagem" src="../assets/alvaro.png" alt="">
+        </div>
+        <img id="notebook" src="../assets/notebook.gif" alt="">
     </div>
-    <img id="notebook" src="../assets/notebook.gif" alt="">
-</div>
 
+    <button class="fa-solid fa-music" id="volume"></button>
+    <audio src="../sound/SoundTrack.mp3" id="soundtrack"></audio>
+    <script src="../soundtrack.js"></script>
     <script src="script.js"></script>
 
 </body>
+
 </html>

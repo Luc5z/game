@@ -11,7 +11,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [justdias2002](https://github.com/justdias2002)
 
 ### 2. Heitor Amaral
-- **Função:** Programador Back-end
+- **Função:** Programador Back-end, PO
 - **Resumo:** Ajuda na criação de sistemas e organiza 
 - **Habilidades:** UI, HTML, JS
 - **GitHub:** [heitoramaral2003](https://github.com/heitoramaral2003)
@@ -47,7 +47,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 - **GitHub:** [DanielNeto3](https://github.com/DanielNeto3)
 
 ### 8. Dival Lucas
-- **Função:** Designer, Programador Front-end
+- **Função:** Designer, Programador Front-end, scrum master
 - **Resumo:** Fazer o designer do mapa e criar o front-end das principais páginas
 - **Habilidades:** HTML, CSS, JS, Libresprite, desenvolvimento ágil
 - **GitHub:** [luc5z](https://github.com/luc5z)

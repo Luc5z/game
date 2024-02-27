@@ -13,7 +13,7 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 ### 2. Heitor Amaral
 - **Função:** Programador Back-end, PO
 - **Resumo:** Ajuda na criação de sistemas e organiza 
-- **Habilidades:** UI, HTML, JS
+- **Habilidades:** HTML, JS
 - **GitHub:** [heitoramaral2003](https://github.com/heitoramaral2003)
 
 ### 3. Rey Hall
@@ -36,14 +36,14 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 
 ### 6. Felipe Pará
 - **Função:** Revisar e implementar código
-- **Resumo:** 
-- **Habilidades:** 
+- **Resumo:** Deploy e revisao de códigos
+- **Habilidades:** Html, JS
 - **GitHub:** [Fepara](https://github.com/Fepara)
 
 ### 7. Daniel Vilhena
 - **Função:** programador
 - **Resumo:** ajudar devs com a criação da trilha sonora
-- **Habilidades:** 
+- **Habilidades:** Python, c#
 - **GitHub:** [DanielNeto3](https://github.com/DanielNeto3)
 
 ### 8. Dival Lucas

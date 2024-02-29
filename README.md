@@ -1,6 +1,6 @@
 # Projeto de Desenvolvimento de Jogo em JavaScript, CSS e HTML
 
-Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trabalho colaborativo envolvendo 8 desenvolvedores talentosos.
+Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trabalho colaborativo envolvendo 9 desenvolvedores talentosos.
 
 ## Desenvolvedores
 

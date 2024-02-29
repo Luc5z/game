@@ -18,13 +18,13 @@ Bem-vindo ao repositório do projeto de desenvolvimento de jogo! Este é um trab
 
 ### 3. Rey Hall
 - **Função:** Programador Back-end
-- **Resumo:** Adicionar uma ou mais trilhas sonoras no jogo, criar banco de dados local para armazenar dados do usuário
+- **Resumo:** Adicionar uma ou mais trilhas sonoras no jogo
 - **Habilidades:** JS, HTML
 - **GitHub:** [Rey_Hall](https://github.com/Rey_Hall)
 
 ### 4. Gustavo Rocha
-- **Função:** Design de personagem, programador back-end
-- **Resumo:** fazer o design do personagem principal e ícones de objetos junto com algumas animações, ajudar na criações de sistemas para o jogo
+- **Função:** Design de personagem, programador front-end
+- **Resumo:** fazer o design do personagem principal e ícones de objetos junto com algumas animações, ajudar na criações de telas do jogo
 - **Habilidades:** CSS, HTML, Aseprite, JS
 - **GitHub:** [gustavorocha30](https://github.com/gustavorocha30)
 

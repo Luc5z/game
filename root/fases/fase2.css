@@ -96,16 +96,3 @@ h5 {
     margin-top: 370px;
     margin-left: 1550px;
 }
-
-#volume{
-    position: absolute;
-    top: 20px; right: 20px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-}
-
-#volume.muted{
-    background: red;
-    color: white;
-}

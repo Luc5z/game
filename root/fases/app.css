@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    display: flex;
+    background-color: rgb(40, 84, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container{
+    display: flex;
+    background-color: rgb(40, 84, 167);
+}
+
+#alvaro {
+    margin-top: 15%;
+    width: 350px;
+}
+
+.falas{
+    margin-top: 10%;
+    background-image: url(../assets/Balao.png);
+    width: 700px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.falas h4{
+    margin: 70px;
+    margin-top: 150px;
+    justify-content: center;
+    display: flex;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.falas a{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Press Start 2P", system-ui;
+}

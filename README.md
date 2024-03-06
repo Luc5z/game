@@ -2,6 +2,7 @@
 
 Bem-vindo ao repositório do projeto de desenvolvimento de jogo!
 Este é um trabalho colaborativo envolvendo 9 desenvolvedores talentosos.
+[Jogo online](https://luc5z.github.io/game/).
 
 ## Desenvolvedores
 

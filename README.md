@@ -1,8 +1,8 @@
 # Projeto de Desenvolvimento de Jogo em JavaScript, CSS e HTML
 
-Bem-vindo ao repositório do projeto de desenvolvimento de jogo!
+Bem-vindo ao repositório do projeto Alvaro simulator!
 Este é um trabalho colaborativo envolvendo 9 desenvolvedores talentosos.
-[Jogo online](https://luc5z.github.io/game/).
+[Jogo online](https://luc5z.github.io/game/). Esse jogo é baseado na vida de um professor de faculdade de ciência da computação que acaba esquecendo suas coisas na faculdade onde ele trabalha e seu objetivo é ajuda-lo a encontrar usando código CSS! topa?
 
 ## Desenvolvedores
 

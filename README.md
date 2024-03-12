@@ -1,4 +1,4 @@
-# Projeto de Desenvolvimento de Jogo em JavaScript, CSS e HTML
+# Alvaro Simulator (2D game)
 
 Bem-vindo ao repositório do projeto Alvaro simulator!
 Este é um trabalho colaborativo envolvendo 9 desenvolvedores talentosos.
